@@ -22,11 +22,11 @@ Focus:      concurrency, queues, auth, systems that don't fall over
 
 ### `GET /projects`
 
-| route          | status | description                                                        |
-|----------------|--------|---------------------------------------------------------------------|
-| `/sendr`       | `live` | Transactional email platform · OAuth, PG job queue, DLQ, rate limiting |
-| `/moneymate`   | `wip`  | Go microservices · gRPC gateway, schema-isolated auth service         |
-| `/sneacave`    | `live` | E-commerce backend · transactional cart/order flow, RBAC              |
+| route                                                      | status | description                                                        |
+|--------------------------------------------------------------|--------|---------------------------------------------------------------------|
+| [`/sendr`](https://github.com/muhammedfazall/Sendr)         | `live` | Transactional email platform · OAuth, PG job queue, DLQ, rate limiting |
+| [`/moneymate`](https://github.com/moneymate-2026/moneymate-backend) | `wip`  | Go microservices · gRPC gateway, schema-isolated auth service         |
+| [`/sneacave`](https://github.com/muhammedfazall/go-ecommerce) | `live` | E-commerce backend · transactional cart/order flow, RBAC              |
 
 <br>
 
@@ -46,8 +46,9 @@ ops          Docker · AWS EC2 · GitHub Actions
 ### `GET /contact`
 
 ```
-email    fazalbkabeer@gmail.com
-linkedin /in/muhammedfazall
+email      →  see below
+linkedin   →  see below
 ```
+[fazalbkabeer@gmail.com](mailto:fazalbkabeer@gmail.com) · [linkedin.com/in/muhammedfazall](https://linkedin.com/in/muhammedfazall)
 
 <sub>200 OK</sub>
