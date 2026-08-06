@@ -45,10 +45,7 @@ ops          Docker · AWS EC2 · GitHub Actions
 
 ### `GET /contact`
 
-```
-email      →  see below
-linkedin   →  see below
-```
-[fazalbkabeer@gmail.com](mailto:fazalbkabeer@gmail.com) · [linkedin.com/in/muhammedfazall](https://linkedin.com/in/muhammedfazall)
+`email` → [fazalbkabeer@gmail.com](mailto:fazalbkabeer@gmail.com)
+`linkedin` → [linkedin.com/in/muhammedfazall](https://linkedin.com/in/muhammedfazall)
 
 <sub>200 OK</sub>
