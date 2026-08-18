@@ -14,7 +14,7 @@ package muhammedfazal
 Backend Engineer · Kozhikode, India
 Go · PostgreSQL · Redis · gRPC · Distributed Systems
 
-Currently:  Full-Stack Dev Intern @ Bridgeon Solutions
+Currently:  Golang Developer Intern @ Bridgeon Solutions
 Focus:      concurrency, queues, auth, systems that don't fall over
 ```
 
