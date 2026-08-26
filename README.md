@@ -405,18 +405,6 @@ I also spend time strengthening my fundamentals through:
 
 ---
 
-# 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=muhammedfazall&show_icons=true&hide_border=true&count_private=true&theme=transparent" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammedfazall&layout=compact&hide_border=true&theme=transparent" height="165"/>
-
-</div>
-
----
-
 <div align="center">
 
 ### Building backend systems. Learning distributed systems. Getting better every day.
