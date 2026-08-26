@@ -1,22 +1,26 @@
 <div align="center">
 
-# Muhammed Fazal
-
-### Backend Engineer · Go · Microservices · Distributed Systems
+![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:0A66C2&height=220&section=header&text=Muhammed%20Fazal&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Go%20%C2%B7%20Microservices%20%C2%B7%20Distributed%20Systems&descAlignY=58&descSize=18&descColor=ffffff)
 
 **Building reliable backend systems with Go, PostgreSQL, Redis, gRPC & AWS**
 
 <p>
   <a href="https://github.com/muhammedfazall">
-    <img src="https://img.shields.io/badge/GitHub-muhammedfazall-181717?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-muhammedfazall-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/muhammedfazall/">
-    <img src="https://img.shields.io/badge/LinkedIn-Muhammed%20Fazal-0A66C2?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Muhammed%20Fazal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:fazalbkabeer@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+
+</div>
+
+<div align="center">
+
+[About](#about-me) · [Currently Building](#-currently-working-on) · [Projects](#-featured-projects) · [Stack](#️-tech-stack) · [Learning](#-currently-learning) · [Stats](#-github-stats)
 
 </div>
 
@@ -59,11 +63,20 @@ API Gateway
           Kafka
 ```
 
-**Working with:**
+<p>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+<img src="https://img.shields.io/badge/Fiber-00ADD8?style=flat-square"/>
+<img src="https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLC-000000?style=flat-square"/>
+<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+</p>
 
-`Go` · `Fiber` · `gRPC` · `PostgreSQL` · `Redis` · `SQLC` · `Kafka` · `Docker`
-
-Current focus:
+<details>
+<summary><b>Current focus areas</b></summary>
+<br>
 
 * Microservices architecture
 * gRPC service-to-service communication
@@ -74,17 +87,18 @@ Current focus:
 * Kafka-based asynchronous communication
 * Containerized services
 
+</details>
+
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
-## 01 · Sendr
-
-### Transactional Email Platform & Developer CLI
+### 01 · [Sendr](https://github.com/muhammedfazall/Sendr) — Transactional Email Platform & Developer CLI
 
 A developer-facing email delivery platform built with Go, designed around **asynchronous processing, clean architecture, reliability, and secure API access**.
 
-### Architecture
+<details>
+<summary><b>Architecture diagram</b></summary>
 
 ```text
                      ┌──────────────┐
@@ -110,168 +124,150 @@ A developer-facing email delivery platform built with Go, designed around **asyn
           SendGrid
 ```
 
-### Engineering Highlights
+</details>
+
+<details open>
+<summary><b>Engineering highlights</b></summary>
+<br>
 
 **Architecture**
-
 * Hexagonal / Clean Architecture
 * Domain, ports, and adapters separation
 * Dependency injection
 * Modular service design
 
 **Job Processing**
-
-* PostgreSQL-backed job queue
-* `SELECT FOR UPDATE SKIP LOCKED`
+* PostgreSQL-backed job queue — `SELECT FOR UPDATE SKIP LOCKED`
 * Semaphore-bounded worker pool
 * Concurrent job processing
-* Exponential backoff
-* Retry handling
-* Dead Letter Queue
-* Zombie job recovery
+* Exponential backoff & retry handling
+* Dead Letter Queue with zombie job recovery
 
 **Security**
-
-* Google OAuth
-* RS256 JWT authentication
-* Refresh token rotation
+* Google OAuth · RS256 JWT · Refresh token rotation
 * Redis-backed token blacklisting
-* API key authentication
-* SHA-256 API key hashing
-* Constant-time credential comparison
+* API key authentication — SHA-256 hashing, constant-time comparison
 
 **Reliability & Performance**
-
-* Redis-backed rate limiting
-* Atomic Lua scripts
+* Redis-backed rate limiting via atomic Lua scripts
 * Per-user usage limits
 * Idempotent payment processing
 * Transactional database workflows
 
 **Payments**
-
-* Razorpay integration
-* Subscription plans
-* Payment verification
-* Webhook handling
-* Plan-based access control
+* Razorpay integration — subscriptions, verification, webhooks, plan-based access
 
 **Infrastructure**
+* Docker · GitHub Actions · GoReleaser · AWS EC2 · SendGrid
 
-* Docker
-* GitHub Actions
-* GoReleaser
-* AWS EC2
-* SendGrid
+</details>
 
-**Stack**
+<p>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+<img src="https://img.shields.io/badge/Chi-000000?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Razorpay-02042B?style=flat-square"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+</p>
 
-`Go` `Chi` `PostgreSQL` `Redis` `Docker` `AWS` `SendGrid` `Razorpay` `GitHub Actions`
+<br>
 
----
-
-## 02 · MoneyMate
-
-### Personal Finance Platform · Ongoing
+### 02 · [MoneyMate](https://github.com/moneymate-2026/moneymate-backend) — Personal Finance Platform · Ongoing
 
 A Go-based microservices platform focused on personal finance management.
 
-### Engineering Highlights
+<details>
+<summary><b>Engineering highlights</b></summary>
+<br>
 
-* Microservices architecture
-* API Gateway
-* gRPC service communication
-* Shared protobuf contracts
-* PostgreSQL with SQLC
-* Goose migrations
-* Redis-backed authentication infrastructure
-* JWT & refresh tokens
-* RBAC
+* Microservices architecture with API Gateway
+* gRPC service communication with shared protobuf contracts
+* PostgreSQL with SQLC and Goose migrations
+* Redis-backed authentication infrastructure — JWT, refresh tokens, RBAC
 * Argon2 password hashing
 * Kafka-based asynchronous communication
 * Dockerized services
 
-**Stack**
+</details>
 
-`Go` `Fiber` `gRPC` `PostgreSQL` `Redis` `SQLC` `Kafka` `Docker`
+<p>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+<img src="https://img.shields.io/badge/Fiber-00ADD8?style=flat-square"/>
+<img src="https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+</p>
 
----
+<br>
 
-## 03 · SneaCave
-
-### E-Commerce Platform
+### 03 · [SneaCave](https://github.com/muhammedfazall/go-ecommerce) — E-Commerce Platform
 
 A full-featured e-commerce platform with transactional order processing and a server-rendered administration system.
 
-### Features
+<details>
+<summary><b>Features</b></summary>
+<br>
 
 **Customer**
-
-* Product catalog
-* Cart management
-* Wishlist
-* Order management
-* Authentication
+* Product catalog · Cart management · Wishlist · Order management · Authentication
 
 **Business Logic**
-
-* Transactional order placement
-* Inventory validation
-* Row-level locking
-* Database consistency
+* Transactional order placement · Inventory validation · Row-level locking · Database consistency
 
 **Authentication**
-
-* JWT
-* Redis refresh-token storage
-* Token blacklisting
-* OTP email verification
-* Role-based authorization
+* JWT · Redis refresh-token storage · Token blacklisting · OTP email verification · Role-based authorization
 
 **Administration**
-
-* Product management
-* Category management
-* User management
-* Order management
-* Dashboard analytics
-* Chart.js visualizations
+* Product, category, user & order management · Dashboard analytics · Chart.js visualizations
 
 **Infrastructure**
+* Docker · Docker Compose · GitHub Actions
 
-* Docker
-* Docker Compose
-* GitHub Actions
+</details>
 
-**Stack**
+<p>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gin-008ECF?style=flat-square"/>
+<img src="https://img.shields.io/badge/GORM-00ADD8?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+</p>
 
-`Go` `Gin` `GORM` `PostgreSQL` `Redis` `Docker`
+<br>
 
----
-
-## 04 · Sendr CLI
-
-### Developer Command-Line Client
+### 04 · Sendr CLI — Developer Command-Line Client
 
 A cross-platform CLI for interacting with the Sendr platform.
 
-### Features
+<details>
+<summary><b>Features</b></summary>
+<br>
 
 * Browser-based OAuth login
 * API key management
 * Email sending from terminal
 * Local configuration management
 * Delivery status polling
-* Cross-platform builds
-* Automated releases
+* Cross-platform builds with automated releases
 
-**Stack**
+</details>
 
-`Go` `Cobra` `GoReleaser` `GitHub Actions`
+<p>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cobra-00ADD8?style=flat-square"/>
+<img src="https://img.shields.io/badge/GoReleaser-000000?style=flat-square"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+</p>
 
 ---
 
-# 🧠 Engineering Interests
+## 🧠 Engineering Interests
 
 <div align="center">
 
@@ -287,20 +283,17 @@ A cross-platform CLI for interacting with the Sendr platform.
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-### Languages
-
+**Languages**
 <p>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 </p>
 
-### Backend
-
+**Backend**
 <p>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
 <img src="https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white"/>
 <img src="https://img.shields.io/badge/REST%20API-005571?style=flat-square"/>
 <img src="https://img.shields.io/badge/Microservices-FF6F00?style=flat-square"/>
@@ -309,8 +302,7 @@ A cross-platform CLI for interacting with the Sendr platform.
 <img src="https://img.shields.io/badge/Chi-000000?style=flat-square"/>
 </p>
 
-### Databases
-
+**Databases**
 <p>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
@@ -318,8 +310,7 @@ A cross-platform CLI for interacting with the Sendr platform.
 <img src="https://img.shields.io/badge/GORM-00ADD8?style=flat-square"/>
 </p>
 
-### Distributed Systems
-
+**Distributed Systems**
 <p>
 <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 <img src="https://img.shields.io/badge/Job%20Queues-444444?style=flat-square"/>
@@ -329,8 +320,7 @@ A cross-platform CLI for interacting with the Sendr platform.
 <img src="https://img.shields.io/badge/Rate%20Limiting-444444?style=flat-square"/>
 </p>
 
-### Authentication & Security
-
+**Authentication & Security**
 <p>
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
 <img src="https://img.shields.io/badge/OAuth%202.0-3C873A?style=flat-square"/>
@@ -338,8 +328,7 @@ A cross-platform CLI for interacting with the Sendr platform.
 <img src="https://img.shields.io/badge/API%20Keys-444444?style=flat-square"/>
 </p>
 
-### DevOps & Cloud
-
+**DevOps & Cloud**
 <p>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white"/>
@@ -350,24 +339,21 @@ A cross-platform CLI for interacting with the Sendr platform.
 
 ---
 
-# 📚 Currently Learning
+## 📚 Currently Learning
 
 ```text
 Advanced Go
-     │
      ├── Concurrency
      ├── Performance
      └── Production Patterns
-     
+
 Distributed Systems
-     │
      ├── Microservices
      ├── Kafka
      ├── Event-Driven Architecture
      └── Reliability Patterns
 
 Infrastructure
-     │
      ├── AWS
      ├── Observability
      └── Scalable Deployments
@@ -375,33 +361,30 @@ Infrastructure
 
 ---
 
-# 🤝 Looking to Collaborate On
+## 🤝 Looking to Collaborate On
 
-* Go backend projects
-* Distributed systems
-* Microservices
-* Open-source Go projects
-* Developer tooling
-* Infrastructure projects
-* Backend-heavy applications
+Go backend projects · Distributed systems · Microservices · Open-source Go projects · Developer tooling · Infrastructure projects · Backend-heavy applications
 
----
-
-# 💬 Ask Me About
+## 💬 Ask Me About
 
 **Go · PostgreSQL · Redis · gRPC · REST APIs · Microservices · Docker · Authentication · Backend Architecture · Distributed Systems**
 
+## 🧩 Problem Solving
+
+Data Structures & Algorithms · LeetCode · SQL problem solving · Go implementations of common data structures · Backend system design
+
 ---
 
-# 🧩 Problem Solving
+## 📊 GitHub Stats
 
-I also spend time strengthening my fundamentals through:
+<div align="center">
 
-* Data Structures & Algorithms
-* LeetCode
-* SQL problem solving
-* Go implementations of common data structures
-* Backend system design
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=muhammedfazall&show_icons=true&theme=default&hide_border=true&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammedfazall&layout=compact&hide_border=true"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammedfazall&hide_border=true"/>
+
+</div>
 
 ---
 
@@ -410,5 +393,7 @@ I also spend time strengthening my fundamentals through:
 ### Building backend systems. Learning distributed systems. Getting better every day.
 
 **Open to Backend Engineering opportunities**
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:00ADD8&height=100&section=footer)
 
 </div>
