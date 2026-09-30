@@ -10,13 +10,9 @@ Building MoneyMate, a personal finance platform split into Go microservices comm
 
 Repo: [moneymate-2026/moneymate-backend](https://github.com/moneymate-2026/moneymate-backend)
 
-## Stack, generally
+## Stack
 
-Go · gRPC · REST · PostgreSQL (SQLC, GORM) · Redis · Kafka · Fiber / Gin / Chi · Docker · AWS EC2 · GitHub Actions · React
-
-## Also
-
-Distributed systems, database internals, algorithms.
+Go · Microservices · gRPC · REST APIs · PostgreSQL (SQLC, GORM) · Redis · Kafka · Fiber / Gin / Chi · Docker · AWS · GitHub Actions · Git · React · Javascript 
 
 ---
 
