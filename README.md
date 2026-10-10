@@ -6,7 +6,7 @@ Backend engineer building Go systems
 
 ## Now
 
-Building MoneyMate, a personal finance platform split into Go microservices communicating over gRPC with shared protobuf contracts, backed by Postgres, Redis, and Kafka. Current focus: RBAC across services, Argon2 password hashing, Redis-backed token management, and the Kafka consumer layer.
+Building MoneyMate, a personal finance platform split into Go microservices communicating over gRPC, backed by Postgres, Redis, and Kafka.
 
 Repo: [moneymate-2026/moneymate-backend](https://github.com/moneymate-2026/moneymate-backend)
 
