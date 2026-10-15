@@ -2,7 +2,7 @@
 
 Backend engineer building Go systems
 
-[GitHub](https://github.com/muhammedfazall) · [LinkedIn](https://www.linkedin.com/in/muhammedfazall/) · [Email](mailto:fazalbkabeer@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/muhammedfazall/) · [Email](mailto:fazalbkabeer@gmail.com)
 
 ## Now
 
